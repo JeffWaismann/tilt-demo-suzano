@@ -15,7 +15,7 @@ arquivo = "funcao.mjs"
 gatilho = { push = "main" }
 
 [funcao.ambiente]
-PUBSUB_TOPICO   = "projects/tilt-examples/topics/tilt-demo-pedidos"
+PUBSUB_TOPICO   = "projects/tilt-examples/topics/tilt-demo-pedidos-max-02"
 GCP_CHAVE       = "cofre:gcp-pubsub.pubsub_chave"
 # A maquina que roda a funcao pode nao alcancar o Google: a publicacao passa pelo rele da Tilt
 # (S-0321), no mesmo servidor que a maquina ja fala, autenticada pela chave de API guardada no cofre.
